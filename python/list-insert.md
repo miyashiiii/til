@@ -2,7 +2,7 @@
 
 indexを指定してlistに値を挿入する
 
-```
+```python
 list = ["A", "B", "C"]
 
 list.insert(1, "D")
