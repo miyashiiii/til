@@ -6,7 +6,7 @@ python3.7で追加された新機能。
 
 例：
 
-```
+```python
 @dataclass
 class InventoryItem:
     '''Class for keeping track of an item in inventory.'''
