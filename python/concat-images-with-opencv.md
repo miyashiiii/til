@@ -18,10 +18,10 @@ def concat_tile(im_list_2d):
     return vconcat_resize_min(im_list_v)
 
 im_tile = concat_tile([
-                     [im1, im2, im3],
-                     [im4, im5, im6],
-                     [im7, im8, im9]
-                 ])
+              [im1, im2, im3],
+              [im4, im5, im6],
+              [im7, im8, im9]
+          ])
 ```
 
 参考：
