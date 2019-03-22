@@ -10,7 +10,7 @@ array([51 55 14 19 0 4])
 
 ```python
 >>> X > 15
-array([True, True, False, True, False, False])
+3
 ```
 
 ### 条件に合致する要素をカウント
