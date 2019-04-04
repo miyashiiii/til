@@ -1,8 +1,11 @@
-
+## specify-slice-index-when-stride-is-negative.md
 
 ステップに負の数を指定すると、indexが逆順になる。
+
+```python
 >>> a = np.array([1,2,3,4,5])
 >>> a[::-1]
 array([5, 4, 3, 2, 1])
 >>> a[:2:-1]
 array([5, 4])
+```
