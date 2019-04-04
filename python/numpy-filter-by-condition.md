@@ -31,6 +31,6 @@ array([51, 55, 19])
 
 ```python
 >>> np.where(X > 15)
-array([0, 1, 3])
+(array([0, 1, 3]),)
 ```
 
