@@ -10,14 +10,14 @@ array([51 55 14 19 0 4])
 
 ```python
 >>> X > 15
-3
+array([ True,  True, False,  True, False, False])
 ```
 
 ### 条件に合致する要素をカウント
 
 ```python
 >>> np.sum(X > 15)
-array([True, True, False, True, False, False])
+３
 ```
 
 ### 条件に合致する要素を取得
