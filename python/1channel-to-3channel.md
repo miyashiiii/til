@@ -1,4 +1,8 @@
+1channel-to-3channel
+
 ```
-def grayscale_to_rgb(grayscale):
-    return np.stack([glayscale, glayscale, glayscale], axis=2)
+def one_channel_to_three_channel(one_channel):
+    return np.stack([one_channel, one_channel, one_channel], axis=2)
+
+
 ```
