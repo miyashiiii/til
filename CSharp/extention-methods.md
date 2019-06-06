@@ -1,6 +1,6 @@
 ## extention methods
 ```CSharp
-c static class MyStringExtensions
+public static class MyStringExtensions
 {
     public static string AddHoge(this string str) 
     {
