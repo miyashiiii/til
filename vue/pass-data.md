@@ -2,7 +2,7 @@
 
 ### 親コンポーネントから子のdataを変更
 
-```
+```vue
 <template>
   <Child ref="refChild" />
 </template>
@@ -18,13 +18,13 @@
 
 #### templateから
 
-```
+```vue
 <v-btn @click="$emit('changeData')" >Change Data</v-btn>
 ```
 
 #### メソッドから
 
-```
+```js
 changeData(data) {
   this.$emit('changeData', data) 
 }
