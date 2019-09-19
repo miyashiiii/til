@@ -14,7 +14,8 @@ array([3, 4, 1, 2])
 ```
 
 引数に関数を渡すと、引数の配列の各要素に対して渡された関数(myfunc)の処理を行うラッパー関数を作る。
-内部的にはfor文を回しているだけらしいので、見た目はスッキリするがパフォーマンスはfor文と変わらないらしい.
+
+内部的にはfor文を回しているだけらしいので、見た目はスッキリするがパフォーマンスはfor文と変わらないらしい。
 
 > The vectorize function is provided primarily for convenience, not for performance. The implementation is essentially a for loop.
 
